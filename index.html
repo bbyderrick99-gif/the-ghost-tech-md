@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE GHOST TECH MD | Pairing Center</title>
+    <style>
+        body { background-color: #000; color: #00ff00; font-family: 'Courier New', monospace; text-align: center; margin: 0; }
+        .matrix-header { padding: 30px; border-bottom: 2px solid #00ff00; background: rgba(0,255,0,0.1); }
+        .container { padding: 20px; }
+        .pairing-card { 
+            border: 2px solid #00ff00; 
+            padding: 30px; 
+            margin: 20px auto; 
+            max-width: 350px; 
+            background: #0a0a0a; 
+            border-radius: 15px; 
+            box-shadow: 0 0 20px #00ff00; 
+        }
+        h2 { color: #fff; text-transform: uppercase; }
+        input { 
+            background: #000; 
+            border: 1px solid #00ff00; 
+            color: #fff; 
+            padding: 15px; 
+            width: 85%; 
+            margin-bottom: 20px; 
+            font-size: 18px; 
+            text-align: center; 
+            border-radius: 5px;
+        }
+        .btn { 
+            display: block; 
+            background: #00ff00; 
+            color: #000; 
+            padding: 15px; 
+            text-decoration: none; 
+            font-weight: bold; 
+            cursor: pointer; 
+            border: none; 
+            width: 100%; 
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .btn:hover { background: #fff; }
+        .command-preview { 
+            font-size: 10px; 
+            text-align: left; 
+            color: #444; 
+            margin-top: 20px; 
+            border-top: 1px solid #222;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="matrix-header">
+        <h1>THE GHOST TECH MD 👻</h1>
+        <p>PAIRING ENGINE V3.0</p>
+    </div>
+
+    <div class="container">
+        <div class="pairing-card">
+            <h2>LINK DEVICE</h2>
+            <p style="color: #888; font-size: 12px;">Enter number with 256...</p>
+            
+            <input type="number" id="phoneNumber" placeholder="256700000000">
+            
+            <button class="btn" onclick="getCode()">GET PAIRING CODE ⚡</button>
+            
+            <div class="command-preview">
+                1000+ Commands Ready: .kickall, .hidetag, .antilink...
+            </div>
+        </div>
+        
+        <a href="https://dashboard.heroku.com/new?template=https://github.com/bbyderrick99-gif/Theghost-" 
+           style="color: #ff0000; text-decoration: none; font-weight: bold; font-size: 14px;">
+           PROCEED TO DEPLOY 🚀
+        </a>
+    </div>
+
+    <script>
+        function getCode() {
+            const num = document.getElementById('phoneNumber').value;
+            if (!num || num.length < 10) {
+                alert("Please enter a valid number (256...)");
+                return;
+            }
+            // This sends you directly to the code generator!
+            window.location.href = "https://keith-v2-pairing.onrender.com/code?number=" + num;
+        }
+    </script>
+
+</body>
+</html>
