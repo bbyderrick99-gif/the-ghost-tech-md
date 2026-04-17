@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE GHOST TECH MD | Instant Code</title>
+    <style>
+        body { background-color: #000; color: #00ff00; font-family: 'Courier New', monospace; text-align: center; margin: 0; }
+        .matrix-header { padding: 30px; border-bottom: 2px solid #00ff00; background: rgba(0,255,0,0.1); }
+        .container { padding: 20px; }
+        .pairing-card { 
+            border: 2px solid #00ff00; 
+            padding: 30px; 
+            margin: 20px auto; 
+            max-width: 350px; 
+            background: #0a0a0a; 
+            border-radius: 15px; 
+            box-shadow: 0 0 20px #00ff00; 
+        }
+        input { 
+            background: #000; 
+            border: 1px solid #00ff00; 
+            color: #fff; 
+            padding: 15px; 
+            width: 85%; 
+            margin-bottom: 20px; 
+            font-size: 18px; 
+            text-align: center; 
+        }
+        .btn { 
+            display: block; 
+            background: #00ff00; 
+            color: #000; 
+            padding: 15px; 
+            text-decoration: none; 
+            font-weight: bold; 
+            cursor: pointer; 
+            border: none; 
+            width: 100%; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="matrix-header">
+        <h1>THE GHOST TECH MD 👻</h1>
+        <p>1000+ COMMANDS ACTIVATED</p>
+    </div>
+
+    <div class="container">
+        <div class="pairing-card">
+            <h2>GET CODE NOW</h2>
+            <input type="number" id="phoneNumber" placeholder="2567XXXXXXXX">
+            
+            <button class="btn" onclick="getCode()">GENERATE CODE ⚡</button>
+        </div>
+        
+        <p style="color: #444; font-size: 10px;">If the screen is white, wait 10 seconds or try again!</p>
+    </div>
+
+    <script>
+        function getCode() {
+            const num = document.getElementById('phoneNumber').value;
+            if (!num) return alert("Enter number first!");
+            
+            // Try this NEW server link - it is much faster!
+            window.location.href = "https://keith-v2-pairing.onrender.com/code?number=" + num;
+        }
+    </script>
+
+</body>
+</html>
