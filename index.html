@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHOST TECH MD</title>
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; font-family: 'Courier New', monospace; }
+        
+        /* High-Tech Video/Gif Background */
+        #bg { 
+            position: fixed; top: 0; left: 0; min-width: 100%; min-height: 100%; z-index: -1; 
+            background: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGJpbmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD12/3o7TKSjNGBhNDM44T6/giphy.gif') center/cover no-repeat;
+            filter: brightness(0.3);
+        }
+
+        .container { display: flex; align-items: center; justify-content: center; height: 100vh; z-index: 1; position: relative; }
+        
+        .card { 
+            background: rgba(0, 0, 0, 0.9); border: 2px solid #00ff88; padding: 30px; 
+            border-radius: 20px; box-shadow: 0 0 30px #00ff88; max-width: 380px; width: 90%; text-align: center; 
+        }
+
+        h1 { color: #00ff88; letter-spacing: 4px; font-size: 22px; margin-bottom: 5px; }
+        .sub { color: #ff0055; font-size: 10px; font-weight: bold; margin-bottom: 20px; }
+
+        input { background: #000; border: 1px solid #00ff88; color: #fff; padding: 15px; width: 85%; border-radius: 10px; margin-bottom: 15px; text-align: center; font-size: 18px; }
+        
+        .btn { display: block; width: 100%; padding: 15px; margin: 10px 0; border: none; border-radius: 10px; font-weight: bold; cursor: pointer; text-transform: uppercase; }
+        .btn-pair { background: #00ff88; color: #000; }
+        .btn-scan { background: #ffffff; color: #000;
+                   
