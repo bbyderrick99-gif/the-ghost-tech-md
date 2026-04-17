@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE GHOST TECH MD | Official Bot</title>
+    <style>
+        body {
+            background-color: #050505;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .header {
+            background: linear-gradient(45deg, #001f3f, #0074D9);
+            padding: 40px 20px;
+            border-bottom: 3px solid #001f3f;
+        }
+        .header h1 { margin: 0; font-size: 2.5em; letter-spacing: 2px; }
+        .container { padding: 30px 15px; }
+        .card {
+            background: #111;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 400px;
+            border: 1px solid #333;
+            box-shadow: 0 4px 15px rgba(0,116,217,0.3);
+        }
+        .btn {
+            display: block;
+            background: #0074D9;
+            color: white;
+            padding: 15px;
+            margin: 10px 0;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn:hover { background: #001f3f; transform: scale(1.02); }
+        .btn-green { background: #2ECC40; }
+        .btn-purple { background: #B10DC9; }
+        .status { color: #2ECC40; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>THE GHOST TECH MD 👻</h1>
+        <p>Advanced WhatsApp User Bot</p>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h3>BOT STATUS: <span class="status">ACTIVE ✅</span></h3>
+            <p>Ready to deploy "Bad News" chaos.</p>
+        </div>
+
+        <div class="card">
+            <h4>QUICK DEPLOY</h4>
+            <a href="#" class="btn">GET PAIRING CODE 📱</a>
+            <a href="#" class="btn btn-green">DEPLOY TO HEROKU 🚀</a>
+            <a href="#" class="btn btn-purple">DEPLOY TO KOYEB 🌪️</a>
+        </div>
+
+        <div class="card">
+            <h4>RESOURCES</h4>
+            <a href="https://github.com/bbyderrick99-gif" class="btn" style="background: #333;">GITHUB REPO 💻</a>
+        </div>
+    </div>
+
+    <p style="font-size: 12px; color: #555;">© 2026 Powered by THE GHOST TECH</p>
+
+</body>
+</html>
+                 
