@@ -1,1 +1,41 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE GHOST TECH MD | Pairing Center</title>
+    <style>
+        body { background-color: #000; color: #00ff00; font-family: 'Courier New', monospace; text-align: center; margin: 0; }
+        .box { border: 2px solid #00ff00; padding: 30px; margin: 50px auto; max-width: 350px; background: #050505; border-radius: 15px; box-shadow: 0 0 20px #00ff00; }
+        input { background: #000; border: 1px solid #00ff00; color: #00ff00; padding: 15px; width: 80%; margin-bottom: 20px; font-size: 18px; text-align: center; }
+        .btn { display: block; background: #00ff00; color: #000; padding: 15px; text-decoration: none; font-weight: bold; cursor: pointer; border: none; width: 100%; }
+        .ghost-logo { font-size: 60px; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <div class="ghost-logo">👻</div>
+        <h2>GHOST PAIRING</h2>
+        <p>Enter WhatsApp Number<br>(Start with 256...)</p>
+        
+        <input type="number" id="number" placeholder="256701234567">
+        
+        <button class="btn" onclick="submitNumber()">GET GHOST CODE ⚡</button>
+        
+        <div id="displayCode" style="margin-top: 20px; font-size: 24px; font-weight: bold; color: white;"></div>
+    </div>
+
+    <script>
+        function submitNumber() {
+            const num = document.getElementById('number').value;
+            if (!num) return alert("Wandiika ennamba yo!");
+            
+            // Redirecting you to the engine with your number already inside!
+            window.location.href = "https://keith-v2-pairing.onrender.com/code?number=" + num;
+        }
+    </script>
+
+</body>
+</html>
