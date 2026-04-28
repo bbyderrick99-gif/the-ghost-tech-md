@@ -1,0 +1,35 @@
+uv sync --extra voice_local
+uv sync --extra voice
+uv sync --extra voice --extra voice_localVOICE_NOTE_ENABLED=true
+WHISPER_DEVICE="cpu"          # cpu | cuda | nvidia_nim
+WHISPER_MODEL="base"
+HF_TOKEN=""MODEL="nvidia_nim/z-ai/glm4.7"
+MODEL_OPUS=
+MODEL_SONNET=
+MODEL_HAIKU=
+ENABLE_MODEL_THINKING=true
+ENABLE_OPUS_THINKING=
+ENABLE_SONNET_THINKING=
+ENABLE_HAIKU_THINKING=NVIDIA_NIM_API_KEY=""
+OPENROUTER_API_KEY=""
+DEEPSEEK_API_KEY=""
+LM_STUDIO_BASE_URL="http://localhost:1234/v1"
+LLAMACPP_BASE_URL="http://localhost:8080/v1"
+OLLAMA_BASE_URL="http://localhost:11434"uv sync --extra voice_local
+uv sync --extra voice
+uv sync --extra voice --extra voice_localNVIDIA_NIM_PROXY=""
+OPENROUTER_PROXY=""
+LMSTUDIO_PROXY=""
+LLAMACPP_PROXY=""http://localhost:11434http://localhost:1234/v1http://localhost:8080/v1NVIDIA_NIM_API_KEY=""
+OPENROUTER_API_KEY=""
+DEEPSEEK_API_KEY=""
+LM_STUDIO_BASE_URL="http://localhost:1234/v1"
+LLAMACPP_BASE_URL="http://localhost:8080/v1"
+OLLAMA_BASE_URL="http://localhost:11434"MODEL="nvidia_nim/z-ai/glm4.7"
+MODEL_OPUS=
+MODEL_SONNET=
+MODEL_HAIKU=
+ENABLE_MODEL_THINKING=true
+ENABLE_OPUS_THINKING=
+ENABLE_SONNET_THINKING=
+ENABLE_HAIKU_THINKING=
